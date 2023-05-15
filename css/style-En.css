@@ -1,0 +1,149 @@
+body{
+    direction: ltr;
+}
+@keyframes moreArrow {
+    0% {
+       transform: rotate(90deg) translateY(0PX);
+    }
+ 
+    100% {
+       transform: rotate(90deg) translateY(10PX);
+    }
+ }
+.nice-select ,.nice-select .list li{
+    text-align: left !important;
+    padding-left: 18px;
+    padding-right: 30px;
+}
+.nice-select:after {
+    left: unset;
+    right: 12px;
+}
+.form-check {
+    padding-right: 1.5em;
+    padding-left: 0;
+}
+.accordion-button::after {
+    right: 1rem;
+    left: auto;
+}
+
+.whatsapp {
+    right: 15px;
+    left: auto;
+}
+
+.more img{
+    transform: rotate(-90deg);
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+.navbar .car-button{
+    margin-left: .75rem;
+    margin-right: 0;
+}
+.navbar-light .navbar-brand img{
+    margin-left: 0 !important;
+    margin-right: .5rem;
+}
+
+header .carousel-caption {
+    left: 7%;
+    right: auto;
+}
+header .carousel-indicators {
+    left: auto;
+    right: 8%;
+}
+.classification{
+    left: 7%;
+    right: auto;
+}
+.classification-content .form-control{
+    margin-right: 6px;
+    margin-left: auto;
+ }
+ .classification-content .nice-select{
+    border-left: 1px solid #bbb;
+    border-right: none;
+ }
+ .classification-content .btn{
+    margin-left: 3px;
+    margin-right: 0;
+ }
+
+ .side-menu-classification.show {
+    right: 0;
+    left: auto;
+}
+
+.side-menu-classification {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    left: auto;
+}
+.toggle-side-menu-classification {
+    position: absolute;
+    top: 250px;
+    right: 100%;
+    left: auto;
+    border-radius:  5px 0px 0px 5px ;
+}
+.close-side-menu-classification ,.close-side-menu-classification:hover{
+    right: 20px;
+    left: auto;
+}
+.about .about-shape{
+    transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, 0) rotate(180deg);
+}
+.about ol li .about-shape::before {
+    transform: translate(-50% , -50%)rotate(45deg);
+}
+.about ol li::after{
+    left: 22px;
+    right: auto;
+ }
+ .about .about-shape+div {
+    width: calc(100% - 3rem);
+    padding-left: 1.5rem;
+    padding-right: 0;
+}
+.why-us li .about-shape+h5 {
+    padding-left: 1rem;
+    padding-right: 0;
+}
+footer h4:before {
+    left: 0;
+    right: auto;
+}
+footer li::before, .car-description li::before {
+    left: 0;
+    right: auto;
+}
+footer ul li, .car-description ul li {
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+.news .news-wrapper .date img,.single-news .news-header img {
+    margin-right: 0;
+    margin-right: 5px;
+}
+.op-pro-filter:after {
+    right: 15px;
+    left: auto;
+}
+#common-q .accordion-button {
+    padding: 1rem 3rem 1rem 1rem;
+    text-align: left!important;
+}
+.privacy li {
+    padding-right: 0;
+    padding-left: 30px;
+}
+.privacy li::before {
+    left: 0;
+    right: auto;
+}
