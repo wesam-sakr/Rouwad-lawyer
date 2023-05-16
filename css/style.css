@@ -245,8 +245,8 @@ p+.form-control{
 .scrollUp {
    position: fixed;
    bottom: 35px;
-   right: 30px;
-   z-index: 9999;
+   left: 30px;
+   z-index: 99;
 }
 .scrollUp a i, .scrollUp svg, .more i{
    display: flex;
@@ -385,7 +385,7 @@ section{
    font-weight: bold;
 }
 .navbar-light .navbar-toggler-icon {
-   background-image: url(../images/Group\ 67653.png);
+   background-image: url(../images/menu.png);
 }
 #lang{
    font-weight: bold;
@@ -1407,7 +1407,7 @@ footer .navbar a {
    top: 0;
    right: .5rem;
    transform: translatey(-50%);
-   z-index: 576768;
+   z-index: 99;
 }
 
 /* ======================= gallery page =======================  */
@@ -1660,7 +1660,11 @@ filter: brightness(0) invert(.7);
 }
 
 
-/* ======================= policy page ======================= */
+/* ======================= advice page ======================= */
+.advice {
+   background: url('../images/advice.png');
+   padding-bottom: 3rem;
+}
 .advice label{
    color: var(--main-color);
    font-weight: 300;
@@ -1901,10 +1905,12 @@ filter: brightness(0) invert(.7);
       flex-direction: column;
       align-items: flex-start;
    }
+   .single-article .article-img, .single-article .article-img>img {
+      height: 280px;
+   }
    .staff .social {
       opacity: 1;
    }
-
    .video-container {
       position: relative;
       width: 100%;

@@ -50,7 +50,7 @@ $(document).ready(function(){
         loop:true,
         margin:20,
         responsiveClass:true,
-        rtl:true,
+        rtl:dirAr,
         autoplay:true,
         nav:false,
         responsive:{
@@ -72,7 +72,7 @@ $(document).ready(function(){
         margin:10,
         center: true,
         responsiveClass:true,
-        rtl:true,
+        rtl:dirAr,
         autoplay:true,
         autoplayTimeout:20000,
         nav:false,
@@ -133,4 +133,3 @@ dropdownArray.forEach(function(el){
 Element.prototype.hasClass = function(className) {
     return this.className && new RegExp("(^|\\s)" + className + "(\\s|$)").test(this.className);
 };
-
