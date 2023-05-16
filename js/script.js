@@ -149,7 +149,7 @@ $("#testimonial-slider").owlCarousel({
 
 $('.op-pro-filter').click(function () {
     $(this).toggleClass('active');
-    $('.filter').slideToggle();
+    $('.services-nav').slideToggle();
 });
 
 var dropdown = document.querySelectorAll('.dropdown');
