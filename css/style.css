@@ -1,7 +1,7 @@
 :root {
    /* Colors: */
    --main-color: #16302D;
-   --secondry-color: #A39D81;
+   --secondary-color: #A39D81;
    --linear: linear-gradient(180deg, #16302D 0%, #1A5851 100%);
    --linear4: linear-gradient(180deg, #066868 0%, #066767 32%, #0F4846 71%, #16302D 100%);
    --rate: #FFBB00;
@@ -15,7 +15,7 @@
    width: 0.6rem;
 }
 ::-webkit-scrollbar-thumb {
-   background-color: var(--secondry-color);
+   background-color: var(--secondary-color);
 }
 
 *{
@@ -88,7 +88,7 @@ html{
  }
  /* Handle */
  ::-webkit-scrollbar-thumb {
-   background: var(--secondry-color); 
+   background: var(--secondary-color); 
    border-radius: 10px;
  }
  /* Handle on hover */
@@ -165,8 +165,8 @@ ul{
 .main-color{
    color: var(--main-color) !important;
 }
-.secondry-color{
-   color: var(--secondry-color);
+.secondary-color{
+   color: var(--secondary-color);
 }
 .bg-main-color{
    background-color: var(--main-color);
@@ -176,8 +176,8 @@ ul{
    background-color: #fff;
    color: var(--main-color) !important; 
 }
-.bg-secondry-color{
-   background-color: var(--secondry-color);
+.bg-secondary-color{
+   background-color: var(--secondary-color);
    color: #fff !important;
 }
 ::selection{
@@ -427,7 +427,7 @@ section{
    border-radius: 10px;
    display: block;
    padding: .25rem 1rem;
-   background-color:var(--secondry-color);
+   background-color:var(--secondary-color);
    color: #fff !important;
    position: relative;
 }
@@ -438,7 +438,7 @@ section{
   height: 0; 
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-bottom: 6px solid var(--secondry-color);
+  border-bottom: 6px solid var(--secondary-color);
   position: absolute;
   top: -6px;
   right: 25%;
@@ -647,7 +647,7 @@ header .header-content .social .ln{
    transition: .3s;
    background: #A39D8110;
    border-radius: 10px;
-   color: var(--secondry-color);
+   color: var(--secondary-color);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -723,7 +723,7 @@ header .header-content .social .ln{
    display: flex;
    justify-content: center;
    align-items: center;
-   background-color: var(--secondry-color);
+   background-color: var(--secondary-color);
    color: #fff;
    font-size: large;
    top: 50%;
@@ -785,7 +785,7 @@ header .header-content .social .ln{
    width: 100%;
    height: 100%;
    padding: 12px;
-   background-color: var(--secondry-color);
+   background-color: var(--secondary-color);
    border-radius: 50%;
    font-size: 18px;
    display: flex;
@@ -873,7 +873,7 @@ header .header-content .social .ln{
    object-fit: contain;
 }
 .apply-serv{
-   color: var(--secondry-color) !important;
+   color: var(--secondary-color) !important;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -882,7 +882,7 @@ header .header-content .social .ln{
    margin-top: 10px;
 }
 .apply-serv .more i{
-   background: var(--secondry-color);
+   background: var(--secondary-color);
 }
 
 /* ------ staff section ------  */
@@ -920,12 +920,12 @@ header .header-content .social .ln{
    font-size: large;
 }
 .staff .card p{
-   color: var(--secondry-color);
+   color: var(--secondary-color);
    font-weight: 300;
    margin-bottom: .25rem;
 }
 .staff .social{
-   background-color: var(--secondry-color);
+   background-color: var(--secondary-color);
    display: flex;
    align-items: center;
    justify-content: space-evenly;
@@ -1115,13 +1115,13 @@ header .header-content .social .ln{
    top: 0;
    right: 10px;
    font-size: 20px;
-   color: var(--secondry-color);
+   color: var(--secondary-color);
 }
 .testimonial .description::before{
    content: "\f10d";
    font-family: fontawesome;
    font-size: 20px;
-   color: var(--secondry-color);
+   color: var(--secondary-color);
    position: absolute;
    bottom: 5px;
    left: 10px;
@@ -1168,8 +1168,6 @@ header .header-content .social .ln{
 
 /* ------------- footer --------------- */
 footer .imgTop {
-   background-color: #fff;
-   color: #fc0;
    position: absolute;
    top: 0%;
    left: 50%;
@@ -1177,11 +1175,10 @@ footer .imgTop {
    width: 130px;
    height: 130px;
    line-height: 40px;
-   border-radius: 100%;
+   border-radius: 50%;
    text-align: center;
    z-index: 35;
    transition: all .2s;
-   font-size: 16px;
    box-shadow: 0px -25px 50px #00000008;
    display: flex;
    align-items: center;
@@ -1192,7 +1189,7 @@ footer .imgTop {
    position: relative;
    padding-top: 5rem;
    padding-bottom: 2rem;
-   background-color: var(--input);
+   background-color: var(--main-color);
 }
 .footer-nav .navbar{
    position: unset;
@@ -1209,13 +1206,13 @@ footer .social i{
    display: flex;
    align-items: center;
    justify-content: center;
-   color: var(--main-color);
+   color: var(--secondary-color);
    font-size: 20px;
    opacity: .8;
 }
 footer .social div:hover i{
-   background-color: var(--main-color);
-   color: #fff;
+   background-color: var(--secondary-color);
+   color: var(--main-color);
    opacity: 1;
    transform: translateY(-10px);
 }
@@ -1233,7 +1230,7 @@ footer .sub-footer img {
    margin: 0 10px;
 }
 footer .navbar a {
-   color: var(--main-color) !important;
+   color: var(--secondary-color) !important;
 }
 
 /* ======================= services page =======================  */
@@ -1503,7 +1500,7 @@ footer .navbar a {
 }
 .article .article-wrapper .article-wrapper-img .badge{
    position: absolute;
-   background-color: var(--secondry-color);
+   background-color: var(--secondary-color);
    color: #fff;
    border-radius: 4px;
    bottom: 10px;
@@ -1644,7 +1641,7 @@ filter: brightness(0) invert(.7);
 .contact-data i{
    display: inline-block;
    font-size: 30px;
-   color: var(--secondry-color);
+   color: var(--secondary-color);
 }
 .contact-info:hover i{
    transform: scale(1.2);
