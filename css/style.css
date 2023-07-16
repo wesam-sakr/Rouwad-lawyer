@@ -1957,6 +1957,17 @@ filter: brightness(0) invert(.7);
       display: none;
    } 
 }
-
+@media (max-width: 786px){
+   header .web-img {
+      display: none;
+  }
+   header .mob-img {
+      display: block;
+   }
+}
+header .header-content .social .ln {
+   width: 1px;
+   height: 60px;
+}
 
  
